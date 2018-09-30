@@ -1,4 +1,4 @@
-##Sample application for reproducing a bug in the vaadin 10 (and 11) Grid.
+## Sample application for reproducing a bug in the vaadin 10 (and 11) Grid.
 
 The used grid will be filled by an DataPovider and uses pagination. If the grid ist sorted by "column 1" in ascending order, the grid works fine. Sorting the grid by "column 2" or even the id in descending order and scrolling up and down leads to absolutely unsorted and unexpected results.
 
