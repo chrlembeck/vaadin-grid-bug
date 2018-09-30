@@ -101,6 +101,8 @@ public class ExampleFilterDataProvider<T, ID extends Serializable> implements Co
 
 	@Override
 	public Stream<T> fetch(Query<T, T> query) {
+		LOGGER.info("fetch: sortOrders=" + query.getSortOrders());
+
 		return delegate.fetch(query);
 	}
 
