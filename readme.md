@@ -1,6 +1,6 @@
 ## Sample application for reproducing a bug in the vaadin 10 (and 11) Grid.
 
-The bug is reported at the vaadin bug board as [Issue 12213](https://github.com/vaadin/framework/issues/11213) 
+The bug is reported at the vaadin bug board as [Issue 353](https://github.com/vaadin/vaadin-grid-flow/issues/353) 
 
 The used grid will be filled by an DataPovider and uses pagination. If the grid ist sorted by "column 1" in ascending order, the grid works fine. Sorting the grid by "column 2" or even the id in descending order and scrolling up and down leads to absolutely unsorted and unexpected results.
 
